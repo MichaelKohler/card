@@ -1,20 +1,20 @@
 {
-  "name": "bitandbang",
+  "name": "michaelkohler",
   "version": "1.1.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "description": "A personal card for Michael Kohler (@MichaelKohler)",
   "main": "index.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "michaelkohler": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/MichaelKohler/card.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Michael Kohler <me@michaelkohler.info> (https://michaelkohler.info)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
