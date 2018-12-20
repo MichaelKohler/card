@@ -52,4 +52,4 @@ const output = heading + newline+
   othering + newline +
   newline + carding
 
-console.log(chalk.green(boxen(output, options)))
+console.log(chalk.blueBright(boxen(output, options)))
