@@ -17,7 +17,7 @@ const data = {
   name: chalk.white('Michael Kohler /'),
   handle: chalk.blueBright('MichaelKohler'),
   tagline: chalk.white('Mozilla Rep, Open Source Enthusiast, Web Developer'),
-  work: chalk.white('JavaScript Developer at NEEO'),
+  work: chalk.white('Software Developer at Control4'),
   twitter: chalk.blueBright('https://twitter.com/KohlerSolutions'),
   github: chalk.blueBright('https://github.com/MichaelKohler'),
   web: chalk.blueBright('https://michaelkohler.info'),
