@@ -1,6 +1,6 @@
 {
   "name": "michaelkohler",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A personal card for Michael Kohler (@MichaelKohler)",
   "main": "index.js",
   "bin": {
