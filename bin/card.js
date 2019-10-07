@@ -20,7 +20,7 @@ const data = {
   work: chalk.white('Software Developer at Control4+SnavAV'),
   twitter: chalk.blueBright('https://twitter.com/KohlerSolutions'),
   github: chalk.blueBright('https://github.com/MichaelKohler'),
-  web: chalk.blueBright('https://michaelkohler.info'),
+  web: chalk.blueBright('https://mkohler.codes'),
   other: chalk.white('mkohler, cyphix0'),
   npx: chalk.white('npx michaelkohler'),
   labelWork: chalk.white.bold('      Work:'),
