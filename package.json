@@ -17,10 +17,10 @@
   "author": "Michael Kohler <me@michaelkohler.info> (https://michaelkohler.info)",
   "license": "MIT",
   "dependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
+    "boxen": "^4.1.0",
+    "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "standard": "^12.0.1"
+    "standard": "^14.3.1"
   }
 }
