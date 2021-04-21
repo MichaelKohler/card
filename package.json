@@ -17,8 +17,8 @@
   "author": "Michael Kohler <me@michaelkohler.info> (https://michaelkohler.info)",
   "license": "MIT",
   "dependencies": {
-    "boxen": "^4.2.0",
-    "chalk": "^4.1.0"
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1"
   },
   "devDependencies": {
     "standard": "^16.0.3"
