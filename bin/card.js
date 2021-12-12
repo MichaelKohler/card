@@ -14,13 +14,13 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('Michael Kohler /'),
-  handle: chalk.blueBright('MichaelKohler'),
-  tagline: chalk.white('Mozilla Rep, Open Source Enthusiast, Software Developer'),
+  name: chalk.white('Michael Kohler'),
+  handle: chalk.white('(@MichaelKohler)'),
+  tagline: chalk.white('Mozilla Rep, Open Source Enthusiast, Software Engineer'),
   work: chalk.white('Senior Engineer at Klarna Bank AB'),
   twitter: chalk.blueBright('https://twitter.com/KohlerSolutions'),
   github: chalk.blueBright('https://github.com/MichaelKohler'),
-  web: chalk.blueBright('https://mkohler.codes'),
+  web: chalk.blueBright('https://mkohler.dev'),
   other: chalk.white('mkohler, cyphix0'),
   npx: chalk.white('npx michaelkohler'),
   labelWork: chalk.white.bold('      Work:'),
@@ -43,7 +43,7 @@ const othering = `${data.labelOther}  ${data.other}`
 const carding = `${data.labelCard}  ${data.npx}`
 
 // Put all our output together into a single variable so we can use boxen effectively
-const output = heading + newline+
+const output = heading + newline + newline +
   tagline + newline + newline +
   working + newline +
   twittering + newline +
