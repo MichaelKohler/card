@@ -3,6 +3,7 @@
   "version": "1.1.5",
   "description": "A personal card for Michael Kohler (@MichaelKohler)",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "michaelkohler": "./bin/card.js"
   },
@@ -17,10 +18,10 @@
   "author": "Michael Kohler <me@michaelkohler.info> (https://michaelkohler.info)",
   "license": "MIT",
   "dependencies": {
-    "boxen": "^5.0.1",
-    "chalk": "^4.1.1"
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1"
   },
   "devDependencies": {
-    "standard": "^16.0.3"
+    "standard": "^17.0.0"
   }
 }
