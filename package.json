@@ -1,9 +1,8 @@
 {
   "name": "michaelkohler",
-  "version": "1.1.6",
+  "version": "0.0.0-development",
   "description": "A personal card for Michael Kohler (@MichaelKohler)",
   "main": "index.js",
-  "type": "module",
   "bin": {
     "michaelkohler": "./bin/card.js"
   },
@@ -12,16 +11,26 @@
     "url": "https://github.com/MichaelKohler/card.git"
   },
   "scripts": {
+    "semantic-release": "semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Michael Kohler <me@michaelkohler.info> (https://michaelkohler.info)",
+  "author": "Michael Kohler <me@michaelkohler.info> (https://mkohler.dev)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^7.0.0",
     "chalk": "^5.0.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-angular": "^17.6.1",
+    "husky": "^8.0.3",
+    "semantic-release": "^21.0.1",
     "standard": "^17.0.0"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
