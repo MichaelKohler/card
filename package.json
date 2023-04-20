@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "A personal card for Michael Kohler (@MichaelKohler)",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "michaelkohler": "./bin/card.js"
   },
@@ -18,8 +19,8 @@
   "author": "Michael Kohler <me@michaelkohler.info> (https://mkohler.dev)",
   "license": "MIT",
   "dependencies": {
-    "boxen": "^7.0.0",
-    "chalk": "^5.0.1"
+    "boxen": "^7.0.2",
+    "chalk": "^5.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
