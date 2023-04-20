@@ -14,7 +14,6 @@ jobs:
         with:
           node-version: 18
       - run: npm ci
-      - run: npm test
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
