@@ -19,15 +19,15 @@
   "author": "Michael Kohler <me@michaelkohler.info> (https://mkohler.dev)",
   "license": "MIT",
   "dependencies": {
-    "boxen": "^7.0.2",
-    "chalk": "^5.2.0"
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
-    "@commitlint/config-angular": "^17.6.1",
-    "husky": "^8.0.3",
-    "semantic-release": "^21.0.1",
-    "standard": "^17.0.0"
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-angular": "^19.7.1",
+    "husky": "^9.1.7",
+    "semantic-release": "^24.2.1",
+    "standard": "^17.1.2"
   },
   "release": {
     "branches": [
