@@ -16,7 +16,7 @@ const options = {
 const data = {
   name: chalk.white('Michael Kohler'),
   tagline: chalk.white('Open Source Enthusiast, Software Engineer'),
-  work: chalk.white('Lead Engineer at Klarna Bank AB'),
+  work: chalk.white('Software Engineer at Interledger Foundation'),
   mastodon: chalk.blueBright('@mkohler@chaos.social'),
   matrix: chalk.blueBright('@mkohler:mozilla.org'),
   github: chalk.blueBright('https://github.com/MichaelKohler'),
